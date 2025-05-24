@@ -210,7 +210,7 @@ fn strings(){
         println!("{}", token);
     }
     println!("Does it contain Jack and best? The fact that it contains Jack is {}, and the fact it contains best is {}.", my_string.to_lowercase().contains("jack"), my_string.to_lowercase().contains("best"));
-    my_string.push_str(" Sia is the worst.");
+    my_string.push_str("Jack's full name is Jack Smith.");
     println!("{}", my_string)
 }
 
