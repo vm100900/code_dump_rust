@@ -196,7 +196,7 @@ fn vectors(){
 
 }
 fn read_file(){
-    let mut file = File::open("/Users/jackvijaymane/HelloWorldRust/jack/ivost.txt").expect("Cannot open file.");
+    let mut file = File::open("./ivost.txt").expect("Cannot open file.");
     let mut contents = String::new();
     file.read_to_string(&mut contents).expect("Oops! Cannot read the file.");
     println!("File contents: \n {}", contents);
